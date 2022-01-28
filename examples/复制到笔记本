@@ -1,0 +1,7 @@
+cargo build --target thumbv7em-none-eabihf
+这个命令可以交叉编译到redox平台
+x86_64-unknown-redox Redox OS，不过只支持std,不支持rustc cargo 
+
+cargo install cargo-xbuild 需要下载这个软件
+cargo install bootimage --version "^0.7.1"
+rustup component add llvm-tools-preview.
