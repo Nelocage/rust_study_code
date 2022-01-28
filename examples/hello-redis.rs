@@ -88,6 +88,10 @@ fn test() {
     //数组中元素类型必须相同，长度是固定的，相当于长度也算进type
 
     // println!("Hello, world!");
+
+    //let语句用来创建变量
 }
 
-fn fn1(x: i32) {}
+fn fn1(x: i32) {
+    println!("test");
+}

@@ -1,8 +1,4 @@
 //#![no_std]这个好像不可以放在use语句的下面
-
-
-
-
 //!的用法：注意这个是#[panic_handler],而正常是#！[no_std],中间缺个！
 //The function should never return, so it is marked as a diverging function by returning the “never” type !.
 
